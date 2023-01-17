@@ -36,7 +36,7 @@ node('built-in')
        {
            try
            {
-               deploy adapters: [tomcat9(credentialsId: '8b761347-32c6-40f8-bfec-8b947f6fec95', path: '', url: 'http://172.31.40.87:8080')], contextPath: 'testapp12', war: '**/*.war'
+               deploy adapters: [tomcat9(credentialsId: 'a5352618-39e8-4c40-b110-6e01e8dc9722', path: '', url: 'http://172.31.0.136:8080')], contextPath: 'testapp18', war: '**/*.war'
            }
            catch(Exception e3)
            {
@@ -67,7 +67,7 @@ node('built-in')
        {
            try
            {
-               deploy adapters: [tomcat9(credentialsId: '8b761347-32c6-40f8-bfec-8b947f6fec95', path: '', url: 'http://172.31.41.51:8080')], contextPath: 'prodapp12', war: '**/*.war'
+               deploy adapters: [tomcat9(credentialsId: 'a5352618-39e8-4c40-b110-6e01e8dc9722', path: '', url: 'http://172.31.0.135:8080')], contextPath: 'prodapp18', war: '**/*.war'
            }
            catch(Exception e5)
            {
